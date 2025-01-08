@@ -1,0 +1,89 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Screen Sections */
+  .screen {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  /* Hide/Show Screens */
+  .hidden {
+    display: none;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Category Selection */
+  .category-selection ul {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  .category-selection li {
+    margin: 5px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .category-selection li:hover {
+    color: #007BFF; /* subtle highlight */
+  }
+  
+  /* Timer Bar */
+  .timer {
+    width: 80%;
+    height: 10px;
+    background-color: #ddd;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  .timer-bar {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(to right, #999, #333);
+    border-radius: 5px;
+  }
+  
+  /* Buttons */
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  button:hover {
+    background: #555;
+  }
+  

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>News Highlights Prototype</title>
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Importing GSAP via CDN (you can do this in the head or right before the closing body tag) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+</head>
+<body>
+
+  <!-- 1. Logo & Start Screen -->
+  <section id="start-screen" class="screen">
+    <h1 class="logo">My News App</h1>
+    <div class="input-section">
+      <label for="userName">Your Name:</label>
+      <input type="text" id="userName" placeholder="Enter name here" />
+    </div>
+    <div class="category-selection">
+      <p>Select Categories:</p>
+      <ul>
+        <li>Sports</li>
+        <li>Tech</li>
+        <li>Politics</li>
+      </ul>
+    </div>
+    <button id="start-button">Start Highlights</button>
+  </section>
+
+  <!-- 2. Timed Screen One -->
+  <section id="timed-screen-1" class="screen hidden">
+    <h2>Top News Story</h2>
+    <p class="story-text">Placeholder for story #1.</p>
+    <div class="timer">
+      <div class="timer-bar"></div>
+    </div>
+  </section>
+
+  <!-- 3. Timed Screen Two -->
+  <section id="timed-screen-2" class="screen hidden">
+    <h2>Second News Story</h2>
+    <p class="story-text">Placeholder for story #2.</p>
+    <div class="timer">
+      <div class="timer-bar"></div>
+    </div>
+  </section>
+
+  <!-- 4. Closing Page -->
+  <section id="closing-screen" class="screen hidden">
+    <h2>Thanks for Visiting!</h2>
+    <p>You’ve uncovered 2 highlights today—more to come.</p>
+  </section>
+
+  <!-- Link to your JS file at the end of the body -->
+  <script src="script.js"></script>
+</body>
+</html>
