@@ -86,4 +86,13 @@
   button:hover {
     background: #555;
   }
+  #logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; 
+    /* Optional: if you want the logo smaller or bigger, 
+       you can adjust width/height in the <svg> itself. */
+  }
+  
   
